@@ -46,7 +46,8 @@
           <ul class="treeview-menu">
             <li><a href="<?php echo base_url('produk') ?>"><i class="fa fa-edit"></i> Produk</a></li>
             <li><a href="<?php echo base_url('kategori') ?>"><i class="fa fa-edit"></i> Kategori</a></li>
-            <li><a href="<?php echo base_url('merk') ?>"><i class="fa fa-edit"></i> Merk</a></li>            
+            <li><a href="<?php echo base_url('merk') ?>"><i class="fa fa-edit"></i> Merk</a></li>
+            <li><a href="<?php echo base_url('pelanggan') ?>"><i class="fa fa-edit"></i> Pelanggan</a></li>            
           </ul>
         </li>
         
