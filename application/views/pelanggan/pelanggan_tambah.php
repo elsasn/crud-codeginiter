@@ -22,6 +22,7 @@ $this->load->view('_partials/sidebar');
 <section class="content">
   <!-- Default box -->
 <div class="box">
+
   <form method="post" action="<?php echo base_url('pelanggan/tambah_proses') ?>">
     <div class="box-body">
       <div class="form-group">
@@ -59,6 +60,7 @@ $this->load->view('_partials/sidebar');
     </div>
     
   </form>
+
 </div>
   </section><!-- /.content -->
   <?php
@@ -79,6 +81,13 @@ $this->load->view('_partials/sidebar');
             });
         }
  
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#submit").click(function(){
+        $("#form").submit();  // jQuey's submit function applied on form.
+        });
+        });   
     </script>
   <?php
   $this->load->view('_partials/footer');
